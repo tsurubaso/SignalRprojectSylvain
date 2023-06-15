@@ -2,7 +2,7 @@
 using SignalRprojectSylvain.Models;
 using System.Diagnostics;
 
-
+//Ctrl + K, Ctrl + D
 
 namespace SignalRprojectSylvain.Controllers
 {
@@ -23,6 +23,14 @@ namespace SignalRprojectSylvain.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult ShowConnectedUsers()
+
+        {
+
+            return View();
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
